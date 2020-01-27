@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Footer from "./components/footer"
 
 const ContactPage = () => {
   return (
@@ -7,8 +7,11 @@ const ContactPage = () => {
       <h1>Contact</h1>
       <p>
         I speak hex, ascii and binary, alternatively find me on{" "}
-        <Link to="https://twitter.com/ha77is" >twitter</Link>
+        <a href="https://twitter.com/ha77is" target="_blank">
+          twitter
+        </a>
       </p>
+      <Footer />
     </div>
   )
 }
