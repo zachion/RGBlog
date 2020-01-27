@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import Footer from "./components/footer"
+import Header from "./components/header"
+import Footer from "./Components/footer"
+
 const IndexPage = () => {
   return (
     <div>
+      <Header />
       <h1>Hello</h1>
       <h2>I'm Zach, a full-stack developer living in beautiful Athens</h2>
       <p>
